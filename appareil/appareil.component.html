@@ -1,0 +1,9 @@
+<li [ngClass]="{'list-group-item' : true, 'list-group-item-success':statusAppareil=== 'allumé',
+                                          'list-group-item-danger':statusAppareil=== 'eteint'}  ">
+  <div style="width: 20px; height: 17.5px; background-color: red" *ngIf="statusAppareil==='eteint' ">
+  </div>
+  <h4 [ngStyle]="{color: getColor() }">  ****************************Appreil: {{nomAppareil}} ****************************
+    et Statut de l'appareil :{{ onGetStatus()}}  ****************************</h4>
+  <input matInput  type="text" placeholder="Saisie appreil"
+          [(ngModel)]="nomAppareil" required  class="form-control" >
+</li>
