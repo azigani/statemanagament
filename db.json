@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "prix": 4300,
+      "quantite": "99999",
+      "selected": true,
+      "available": true
+    },
+    {
+      "name": "prod",
+      "prix": 4300000,
+      "quantite": 75,
+      "selected": false,
+      "available": true,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "azerty",
+      "prix": 893000,
+      "quantite": 8,
+      "selected": true,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Computer test",
+      "prix": 4300,
+      "quantite": "5",
+      "selected": false,
+      "available": true
+    },
+    {
+      "name": "produit gaming",
+      "prix": "90",
+      "quantite": 0,
+      "selected": true,
+      "available": true,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "name": "azerty gaming",
+      "prix": 900000,
+      "quantite": 5,
+      "selected": false,
+      "available": true
+    },
+    {
+      "name": "testproduit1707",
+      "prix": 4,
+      "quantite": 5,
+      "selected": true,
+      "available": true,
+      "id": 7
+    }
+  ]
+}
